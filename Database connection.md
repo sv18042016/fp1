@@ -44,4 +44,5 @@ Maximum connection specify the maximum number of connection you want to make<br>
 Additional Parameters include any additional JDBC parameter in this section<br>
 Over SSH protect the data using a user and accessible key assigned to it</li>
 </ul>
+<p>Sample INformation</p>
 
