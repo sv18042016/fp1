@@ -6,9 +6,8 @@
 <h1 id="database-connection">Database Connection</h1>
 <p>Connection specifies a database connection from which model can retrieve the data.<br>
 <strong>1. Click on Database Section</strong>  to setup a database connection.</p>
-<p><strong>2.</strong> <strong>Click on +New connection</strong> button to start the Process.<br>
-<img src="https://raw.githubusercontent.com/sv18042016/fp1/master/images/demo%20image.png" alt="enter image description here"><br>
-Enter the below list of  credential fields.</p>
+<p><strong>2.</strong> <strong>Click on +New connection</strong> button to start setting up the connection to database. in general, you specify the below mentioned  fields:<br>
+<img src="https://raw.githubusercontent.com/sv18042016/fp1/master/images/demo%20image.png" alt="enter image description here"></p>
 <ul>
 <li><strong>Name</strong> Specify a name of the connection to define</li>
 <li><strong>Database(dialect)</strong> choose a appropriate dialect that matches your <a href="http://connection.at">connection.at</a> present BiPlus  is supporting following list of Database.Further to this we can also include the dialect as per the business requirement.
@@ -22,10 +21,8 @@ Enter the below list of  credential fields.</p>
 <li>MariaDB</li>
 <li>Amazon Aurora(MySQL)</li>
 </ul>
-</li>
-</ul>
 <blockquote>
-<p>In the most recent release, BiPlus also supports following list of dialects</p>
+<p>In the most recent release, Bi Plus also supports following list of dialects</p>
 </blockquote>
 <ul>
 <li>Amazon Redshift</li>
@@ -41,15 +38,17 @@ Enter the below list of  credential fields.</p>
 <li>MemSQL</li>
 <li>Hive</li>
 </ul>
+</li>
+</ul>
 <blockquote>
-<p>In case if your database are not available in the above mentioned list, Bi Plus will include the dialects required|</p>
+<p>Note: In case if your database are not available in the above mentioned list, Bi Plus will include the dialects required.|</p>
 </blockquote>
 <ul>
-<li><strong>Host</strong>   Provide the database host path</li>
+<li><strong>Host</strong> Provides the database host path</li>
 <li><strong>Database</strong>  identifier name of the database used for connection</li>
-<li><strong>Username and Password</strong>  used connect the database</li>
-<li><strong>Temp database</strong> the database ( depending on  the selected dialects)  contains a derived set of tables which can be used as per requirement</li>
-<li><strong>Maximum connection</strong> specify the maximum number of connection you want to make</li>
+<li><strong>Username and Password</strong> to connect the database</li>
+<li><strong>Temp database</strong> ( depending on  the selected dialects)  contains a derived set of tables which can be used as per requirement</li>
+<li><strong>Maximum connection</strong> maximum number of connection you want to setup</li>
 <li><strong>Additional Parameters</strong> include any additional JDBC parameter in this section</li>
 <li><strong>Over SSH</strong> protect the data using a user and access key assigned to it</li>
 </ul>
